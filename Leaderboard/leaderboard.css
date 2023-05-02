@@ -6,6 +6,7 @@ body {
 
 header {
 	background-color: #333;
+	height: 6vh;
 	color: #fff;
 	padding: 10px;
 	display: flex;

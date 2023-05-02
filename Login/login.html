@@ -2,8 +2,7 @@
 <html lang="en">
 
 <head>
-    <span class="fast-flicker">2D </span>Champ<span class="flicker">t</span>ion
-
+   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,53 +14,33 @@
 </head>
 
 <body>
-   <canvas id="animation-surface" width="800" height="600">
-</canvas>
-
-    <form class="form" autocomplete="off">
-        <div class="control">
-          <h1>2d Champion</h1>
-        </div>
-        <div class="control block-cube block-input">
-          <input name="username" type="text" placeholder="Username" />
-          <div class="bg-top">
-            <div class="bg-inner"></div>
-          </div>
-          <div class="bg-right">
-            <div class="bg-inner"></div>
-          </div>
-          <div class="bg">
-            <div class="bg-inner"></div>
-          </div>
-        </div>
-        <div class="control block-cube block-input">
-          <input name="password" type="password" placeholder="Password" />
-          <div class="bg-top">
-            <div class="bg-inner"></div>
-          </div>
-          <div class="bg-right">
-            <div class="bg-inner"></div>
-          </div>
-          <div class="bg">
-            <div class="bg-inner"></div>
-          </div>
-        </div>
-        <button class="btn block-cube block-cube-hover" type="button">
-          <div class="bg-top">
-            <div class="bg-inner"></div>
-          </div>
-          <div class="bg-right">
-            <div class="bg-inner"></div>
-          </div>
-          <div class="bg">
-            <div class="bg-inner"></div>
-          </div>
-          <div class="text">Log In</div>
-        </button>
-      </form>
- 
-    
-    </div>
-
+  <header>
+		<nav>
+			<ul>
+				<li><a href="..\Home\home.html">Home</a></li>
+				<li><a href="..\Game_Selection\selection.html">Games</a></li>
+				<li><a href="..\Leaderboard\leaderboard.html">Leaderboard</a></li>
+				<li><a href="..\Login\login.html">Login</a></li>
+			</ul>
+		</nav>
+	</header>
+<div class="container">
+  <nav>
+			<ul>
+				<li><a href="..\Home\home.html">Home</a></li>
+				<li><a href="..\Game_Selection\selection.html">Games</a></li>
+				<li><a href="..\Leaderboard\leaderboard.html">Leaderboard</a></li>
+				<li><a href="..\Login\login.html">Login</a></li>
+			</ul>
+		</nav>
+  <img src="bg.svg" alt="" class="image" height="100%" width="100%">
+  <form action="#">
+    <div class="input">
+  <label for="username"><input type="text" placeholder="USERNAME"></label>
+  <label for="password"><input type="password" placeholder="PASSWORD"></label>
+  <label for="button"> <button class="btn" type="submit">SUBMIT</button> </label>
+</div>
+</form>
+</div>
 </body>
 </html>
